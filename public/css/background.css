@@ -1,0 +1,30 @@
+.background {
+    background-image: url('../img/back.png');
+    width: 1200px;
+    height: 600px;
+    background-size: cover;
+    /* or contain depending on what you want */
+    background-repeat: repeat;
+    padding: 0;
+}
+
+#header {
+    padding: 0px 0;
+    height: 75px;
+    left: 0;
+    top: 0;
+    background: none;
+    color: rgb(0, 0, 0);
+    right: 0;
+    transition: all 0.5s;
+    z-index: 997;
+}
+
+#header #logo {
+    float: left;
+}
+
+.logo {
+    width: 71%;
+    margin-top: 44px;
+}

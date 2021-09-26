@@ -1,0 +1,277 @@
+#header {
+    padding: 0px 0;
+    height: 75px;
+    left: 0;
+    top: 0;
+    background: none;
+    color: rgb(0, 0, 0);
+    right: 0;
+    transition: all 0.5s;
+    z-index: 997;
+}
+
+
+/* #header.header-scrolled {
+    background: rgba(255, 255, 255, 0.9);
+    color: #000;
+    padding: 0px 0;
+    height: 96px;
+    transition: all 0.5s;
+}
+
+#header.header-scrolled .nav-menu a {
+    padding: 22px 8px 10px 8px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: #000000;
+    text-transform: uppercase;
+    outline: none;
+} */
+
+#header #logo {
+    float: left;
+    position: relative;
+}
+
+.logo {
+    width: 45%;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+A {
+    text-decoration: none;
+}
+
+.nav-menu,
+.nav-menu * {
+    margin-top: 25px;
+    margin-right: 16px;
+    list-style: none;
+}
+
+.nav-menu ul {
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+    z-index: 99;
+}
+
+.nav-menu li {
+    position: relative;
+    white-space: nowrap;
+}
+
+.nav-menu>li {
+    float: left;
+}
+
+.nav-menu li:hover>ul,
+.nav-menu li.sfHover>ul {
+    display: block;
+}
+
+.nav-menu ul ul {
+    top: 0;
+    left: 100%;
+}
+
+.nav-menu ul li {
+    min-width: 180px;
+}
+
+
+/* Nav Meu Container */
+
+#nav-menu-container {
+    float: right;
+    margin: 0;
+}
+
+
+/* Nav Meu Styling */
+
+.nav-menu a {
+    overflow: visible;
+    width: 234px;
+    white-space: nowrap;
+    --web-animation: fadein 0.3s ease-out;
+    --web-action-type: page;
+    --web-action-target: Web_1920___2.html;
+    cursor: pointer;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(96, 96, 96, 1);
+}
+
+.nav-menu>li {
+    margin-left: 10px;
+}
+
+.nav-menu ul {
+    margin: 4px 0 0 0;
+    padding: 10px;
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    background: #000;
+}
+
+.nav-menu ul li {
+    transition: 0.3s;
+}
+
+.nav-menu ul li a {
+    padding: 10px;
+    color: #333;
+    transition: 0.3s;
+    display: block;
+    font-size: 13px;
+    text-transform: none;
+}
+
+.text-black {
+    color: #000
+}
+
+.nav-menu ul li:hover>a {
+    color: #ed4410;
+}
+
+.nav-menu ul ul {
+    margin: 0;
+}
+
+.actualite {
+    color: #000;
+    margin-top: 14%;
+    margin-left: 4%;
+}
+
+.header {
+    font-weight: 800;
+    font-size: 37px;
+    margin-left: 108px;
+    color: #858585;
+}
+
+.arctilesTitle {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: 116px;
+    color: #858585;
+}
+
+.sec {
+    margin-left: 21px;
+}
+
+.text-articles {
+    margin-top: 14px;
+    margin-left: 102px;
+}
+
+.card2 {
+    margin-left: 0px;
+}
+
+.group {
+    margin-left: 97px;
+    margin-top: 32px;
+}
+
+.newsletter {
+    margin-top: 12px;
+}
+
+.imam1 {
+    width: 100%;
+}
+
+.imam2 {
+    width: 100%;
+}
+
+.actu {
+    margin-left: 218px;
+    border-left: 3px solid rgb(205 205 205);
+}
+
+.youtube {
+    margin-left: 0px;
+}
+
+.btn-orange {
+    background-color: #deac39;
+    color: rgb(255, 255, 255);
+}
+
+.btn-orange:hover {
+    background-color: #006eff;
+    color: rgb(255, 255, 255);
+}
+
+.formcontrol {
+    height: 34px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555;
+    vertical-align: middle;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+
+.formcontrol:focus {
+    border-color: #ffae00;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6)
+}
+
+.formcontrol:-moz-placeholder {
+    color: #999
+}
+
+.formcontrol::-moz-placeholder {
+    color: #999
+}
+
+.formcontrol:-ms-input-placeholder {
+    color: #999
+}
+
+.formcontrol::-webkit-input-placeholder {
+    color: #999
+}
+
+.form input::placeholder {
+    font-size: 10px;
+}
+
+.card {
+    width: 90%;
+}
+
+.buttonH {
+    margin-top: -10%;
+    position: static;
+    background-color: #a0a0a0;
+    border-radius: 15px;
+    border-color: #ffffff;
+    color: rgb(252, 252, 252);
+    padding: 10px;
+    width: 150px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}

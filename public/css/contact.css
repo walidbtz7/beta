@@ -1,0 +1,357 @@
+#contact {}
+
+.formcontrol:-moz-placeholder {
+    color: #999
+}
+
+.formcontrol::-moz-placeholder {
+    color: #999
+}
+
+.formcontrol:-ms-input-placeholder {
+    color: #999
+}
+
+.formcontrol::-webkit-input-placeholder {
+    color: #999
+}
+
+.formcontrol {
+    width: 417px;
+    height: 63px;
+    padding: 6px 12px;
+    border-radius: 30px;
+    font-size: 25px;
+    line-height: 1.428571429;
+    color: #525252;
+    vertical-align: middle;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+
+.formcontrol:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6)
+}
+
+.formcontrol::placeholder {
+    font-size: 20px;
+}
+
+.formcontrol[disabled],
+.formcontrol[readonly],
+fieldset[disabled] .formcontrol {
+    cursor: not-allowed;
+    background-color: #eee
+}
+
+.textarea::placeholder {
+    font-size: 20px;
+}
+
+.textarea {
+    width: 618px;
+    height: 243px;
+    padding: 6px 12px;
+    border-radius: 30px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555;
+    vertical-align: middle;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+
+.textarea:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6)
+}
+
+.form input {
+    border-color: #757575;
+    width: 280px;
+}
+
+.form input::placeholder {
+    font-size: 30px;
+}
+
+#Nous_contacter {
+    left: 31%;
+    top: 143px;
+    position: absolute;
+    overflow: visible;
+    width: 431px;
+    height: 61px;
+    text-align: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: #265fd2;
+}
+
+#Form {
+    position: absolute;
+    width: 600px;
+    height: 833px;
+    left: 32%;
+    top: 243px;
+    overflow: visible;
+}
+
+#Name {
+    position: absolute;
+    width: 600px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+#Votre_nom {
+    left: 32px;
+    top: 26px;
+    position: absolute;
+    overflow: visible;
+    width: 139px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    color: rgba(198, 198, 198, 1);
+}
+
+#Email {
+    position: absolute;
+    width: 600px;
+    height: 90px;
+    left: 0px;
+    top: 130px;
+    overflow: visible;
+}
+
+#Votre_prenom {
+    left: 30px;
+    top: 26px;
+    position: absolute;
+    overflow: visible;
+    width: 183px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    color: rgba(198, 198, 198, 1);
+}
+
+#Company {
+    position: absolute;
+    width: 600px;
+    height: 90px;
+    left: 0px;
+    top: 260px;
+    overflow: visible;
+}
+
+#Profession {
+    left: -11pxx;
+    top: 3px;
+    position: absolute;
+    overflow: visible;
+    width: 139px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    color: rgba(198, 198, 198, 1);
+}
+
+#Message {
+    position: absolute;
+    width: 600px;
+    height: 225px;
+    left: 0px;
+    top: 414px;
+    overflow: visible;
+}
+
+.message {}
+
+.Rectangle_55_bj {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.251));
+    position: absolute;
+    overflow: visible;
+    width: 618px;
+    height: 243px;
+    left: 0px;
+    top: 0px;
+}
+
+#message {
+    left: 30px;
+    top: 26px;
+    position: absolute;
+    overflow: visible;
+    width: 116px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    color: rgba(198, 198, 198, 1);
+}
+
+#Button {
+    position: absolute;
+    width: 600px;
+    height: 80px;
+    left: 157px;
+    top: 667px;
+    overflow: visible;
+}
+
+#ENVOYER {
+    left: 235px;
+    top: 21px;
+    position: absolute;
+    overflow: visible;
+    width: 131px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#Formulaire_Imam {
+    left: 615px;
+    top: 52px;
+    position: absolute;
+    overflow: visible;
+    width: 243px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(96, 96, 96, 1);
+}
+
+#Formulaire_Mosque_ {
+    left: 919px;
+    top: 52px;
+    position: absolute;
+    overflow: visible;
+    width: 303px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(96, 96, 96, 1);
+}
+
+#Soutenir {
+    left: 1278px;
+    top: 52px;
+    position: absolute;
+    overflow: visible;
+    width: 123px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(96, 96, 96, 1);
+}
+
+#Sidentifier {
+    left: 1453px;
+    top: 52px;
+    position: absolute;
+    overflow: visible;
+    width: 156px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(96, 96, 96, 1);
+}
+
+#Nous_contacter_bs {
+    left: 1668px;
+    top: 52px;
+    position: absolute;
+    overflow: visible;
+    width: 220px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(96, 96, 96, 1);
+}
+
+#khatib_logo {
+    position: relative;
+    width: 197px;
+    height: 184px;
+    left: 38px;
+    top: 22px;
+    overflow: visible;
+    --web-animation: fadein 0.3s ease-out;
+    --web-action-type: page;
+    --web-action-target: Web_1920___1.html;
+    cursor: pointer;
+}
+
+.button {
+    font-weight: 700;
+    margin-top: 1%;
+    margin-left: 59px;
+    position: relative;
+    background-color: #ff9900;
+    border-radius: 15px;
+    font-size: 19px;
+    border-color: #ffffff;
+    color: rgb(252, 252, 252);
+    padding: 18px;
+    height: 61px;
+    width: 225px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #29449F;
+}
