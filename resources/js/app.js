@@ -18,9 +18,10 @@ window.Vue = require('vue').default;
 
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
-
+Vue.component('mosque', require('./components/mosque.vue').default);
 Vue.component('imam', require('./components/Imam.vue').default);
 Vue.component('coran', require('./components/step/Coran.vue').default);
+Vue.component('fin', require('./components/step/Fin.vue').default);
 Vue.component('comReligieuses', require('./components/step/ComReligieuses.vue').default);
 Vue.component('experience', require('./components/step/Expérience.vue').default);
 Vue.component('futur', require('./components/step/Futur.vue').default);

@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\MosqueController;
 use App\Http\Controllers\PagesController;
+use App\Http\Controllers\MailController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,4 +20,6 @@ Route::get('/contact',[PagesController::class,'contact']);
 Route::get('/actualité',[PagesController::class,'actualité']);
 Route::get('/mosque',[PagesController::class,'mosque']);
 Route::get('/imam',[PagesController::class,'imam']);
+Route::get('/khatibClub',[PagesController::class,'club']);
+Route::post('/contacts',[MailController::class,'contact']);
 

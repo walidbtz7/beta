@@ -12,6 +12,7 @@ class Mosque extends Model
         'nom',
         'président',
         'adresse',
+        'capacité',
         'année',
         'cours'
     ];

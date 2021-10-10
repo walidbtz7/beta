@@ -29,18 +29,19 @@
     <div id="Nous_contacter">
         <span>Nous contacter</span>
     </div>
-    <div id="Form">
-        <p> <input class="formcontrol" type="text" placeholder="nom"></p>
+    <form  id="Form" action="{{ url('/contacts') }}" method="POST" enctype="multipart/form-data">
+        @csrf
+        <p> <input class="formcontrol" name="name" type="text" placeholder="nom"></p>
 
-        <p><input class="formcontrol" type="text" placeholder="Email"></p>
+        <p><input class="formcontrol" name="email" type="text" placeholder="Email"></p>
 
-        <p> <input class="formcontrol" type="text" placeholder="Profession"></p>
+        <p> <input class="formcontrol" name="profession" type="text" placeholder="Profession"></p>
 
+        <p><textarea class="formcontrol" name="message" placeholder="Message" id="floatingTextarea2"
+                style="height: 200px"></textarea></p>
 
-        <p><textarea class="formcontrol" placeholder="Message" id="floatingTextarea2" style="height: 200px"></textarea></p>
-
-        <a herf=""> <button class="button">ENVOYER</button></a>
-    </div>
+        <button value="Submit" class="button">ENVOYER</button></a>
+    </form>
     </div>
 </body>
 

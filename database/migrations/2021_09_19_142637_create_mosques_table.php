@@ -19,6 +19,7 @@ class CreateMosquesTable extends Migration
             $table->string('président');
             $table->string('adresse');
             $table->string('année');
+            $table->string('capacité');
             $table->string('cours');
             $table->timestamps();
         });

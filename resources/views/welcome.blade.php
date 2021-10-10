@@ -34,7 +34,7 @@
                 <ul class="nav-menu">
                     <li><a href="/imam">Je suis Imam</a></li>
                     <li><a href="/mosque">Je suis une Mosquée</a></li>
-                    <li><a href="">Club KHatib</a></li>
+                    <li><a href="/khatibClub">Club KHatib</a></li>
                     <li><a href="/actualité">Actualité</a></li>
                     <li><a href="/contact"><button class="buttonH">Contacter Nous</button>
                     </a></li>

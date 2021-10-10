@@ -30,5 +30,9 @@ class PagesController extends Controller
     {
         return view('mosque');
     }
+    public function club()
+    {
+        return view('club');
+    }
 
 }
